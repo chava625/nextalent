@@ -24,14 +24,6 @@ router.get("/search", (req, res) => {
     (err, data) => {
       if (err) {
         console.log(err);
-        router.get("/current", authToken, (req, res) => {
-            userModel.findOne({ _id: req._id }, (err, data) => {
-              if (err) {
-                res.status(400).json(err);
-              }
-              res.json(data);
-            });
-          });
       }
       res.json(data);
     }
