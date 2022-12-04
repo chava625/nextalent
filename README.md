@@ -1,3 +1,6 @@
+A system for recruiters and companies to manage suitable candidates
+Job seekers upload their CV and other relevant details and recruiters can easily locate those suitable for them
+Built in React & Node JS with MongoDB languages
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
